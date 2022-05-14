@@ -14,6 +14,7 @@
 import Foundation
 #if os(Linux)
     import CLibBSD_Linux
+    import ClibBSD
 #endif
 
 final public class AES256CBC {
